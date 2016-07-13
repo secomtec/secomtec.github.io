@@ -631,8 +631,8 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
 }
 .wrap-testimony .testimony-slide figure img {
-  width: 120px;
-  height: 120px;
+  width: 400px;
+  height: 400px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
