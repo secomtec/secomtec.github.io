@@ -631,13 +631,23 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
 }
 .wrap-testimony .testimony-slide figure img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+.wrap-testimony .testimony-slide figure1 img {
+  width: 120px;
+  height: 120px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .wrap-testimony .testimony-slide blockquote {
   border: none;
   margin: 0 auto;
