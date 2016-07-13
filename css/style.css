@@ -639,6 +639,14 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
 }
 
+.wrap-testimony .testimony-slide figure2 {
+  margin-bottom: 20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
 .wrap-testimony .testimony-slide figure img {
   width: 300px;
   height: 300px;
@@ -651,6 +659,15 @@ h1, h2, h3, h4, h5, h6, figure {
 .wrap-testimony .testimony-slide figure1 img {
   width: 120px;
   height: 120px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.wrap-testimony .testimony-slide figure2 img {
+  width: 200px;
+  height: 200px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
