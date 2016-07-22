@@ -643,6 +643,14 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
 }
 
+.wrap-testimony .testimony-slide figurep {
+  margin-bottom: 20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
 .wrap-testimony .testimony-slide figure img {
   width: 300px;
   height: 300px;
@@ -668,6 +676,15 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+}
+
+.wrap-testimony .testimony-slide figurep img {
+  width: 400px;
+  height: 400px;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  border-radius: 15%;
 }
 
 .wrap-testimony .testimony-slide blockquote {
