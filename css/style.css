@@ -466,7 +466,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-hero {
-  min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
