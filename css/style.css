@@ -580,7 +580,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 2px;
 }
 #fh5co-work-section .item-grid .image {
-  height: 300px;
+  height: 200px;
   overflow: hidden;
   margin-bottom: 20px;
   background-size: cover;
@@ -725,7 +725,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog-section .item-grid .image {
   height: 200px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-size: cover;
   background-position: center center;
 }
