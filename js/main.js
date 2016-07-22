@@ -73,12 +73,12 @@
 
 	var responseHeight = function() {
 		setTimeout(function(){
-			$('.js-responsive > .v-align').css('height', $('.js-responsive > img').height());
+			$('.js-responsive > .v-align').css('height', $('.js-responsive > img').height()/2);
 		}, 1);
 		
 		$(window).resize(function(){
 			setTimeout(function(){
-				$('.js-responsive > .v-align').css('height', $('.js-responsive > img').height());
+				$('.js-responsive > .v-align').css('height', $('.js-responsive > img').height()/2);
 			}, 1);
 		})
 	};
@@ -146,14 +146,14 @@
 				if( direction === 'down' ) {
 					$('.fh5co-nav-toggle').addClass('dark');
 				}
-			} , { offset: - $('#fh5co-hero').height() } );
+			} , { offset: - $('#fh5co-hero').height()/2 } );
 
 			$('#fh5co-hero').waypoint( function( direction ) {
 				if( direction === 'up' ) {
 					$('.fh5co-nav-toggle').removeClass('dark');
 				}
 			} , { 
-				offset:  function() { return -$(this.element).height() + 0; }
+				offset:  function() { return -$(this.element).height()/2; }
 			} );
 		}
 	};
