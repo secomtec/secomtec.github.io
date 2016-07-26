@@ -680,7 +680,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .wrap-testimony .testimony-slide figurep img {
   width: 400px;
-  height: 400px;
+  height: 100px;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
